@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf1f99e5-5a43-479a-9048-01689e901a48" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/cn/ayahiro/zuul/fallback/AuthFeignFallbackProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/config/application-zuul-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web/cloud-template-master/cloud-template" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/src/main/resources/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,6 +50,11 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\cloud-demo\config\src\main\resources\config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthApplication">
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ayahiro.admin.AdminApplication" />
@@ -73,6 +79,13 @@
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="auth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ayahiro.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ayahiro.config.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581135312193</updated>
-      <workItem from="1581135313712" duration="8444000" />
+      <workItem from="1581135313712" duration="13152000" />
     </task>
     <servers />
   </component>

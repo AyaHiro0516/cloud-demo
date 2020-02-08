@@ -1,25 +1,36 @@
-server:
-  port: 9003
+#server:
+#  port: 9003
+#
+#spring:
+#  application:
+#    name: zuul
+#
+#eureka:
+#  client:
+#    service-url:
+#      # Eureka注册中心连接地址
+#      # 如果注册中心地址配置的域名，这里使用 http://域名/eureka/ 格式
+#      defaultZone: http://localhost:8080/eureka/
+#
+#zuul:
+#  routes:
+#    # 路由名称，随意
+#    admin:
+#      # 路由地址
+#      path: /api/admin/**
+#      # 该路由地址对应的服务名称
+#      serviceId: admin
+#    auth:
+#      path: /api/auth/**
+#      serviceId: auth
 
+#从config中获取配置文件
 spring:
-  application:
-    name: zuul
-
-eureka:
-  client:
-    service-url:
-      # Eureka注册中心连接地址
-      # 如果注册中心地址配置的域名，这里使用 http://域名/eureka/ 格式
-      defaultZone: http://localhost:8080/eureka/
-
-zuul:
-  routes:
-    # 路由名称，随意
-    admin:
-      # 路由地址
-      path: /api/admin/**
-      # 该路由地址对应的服务名称
-      serviceId: admin
-    auth:
-      path: /api/auth/**
-      serviceId: auth
+  profiles:
+    active: native
+  cloud:
+    config:
+      uri: http://locahost:8888
+      #name必须和config服务的配置文件名一样 即name+profile为配置文件全名
+      name: application-zuul
+      profile: dev

@@ -19,6 +19,7 @@
         <module>admin</module>
         <module>auth</module>
         <module>zuul</module>
+        <module>config</module>
     </modules>
 
     <properties>
